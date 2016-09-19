@@ -1,6 +1,6 @@
 ---
-title: JavaScript Basics
-toc: Title
+title: Jest Basics
+toc: Let's go!
 chapter: Intro
 layout: Center
 style: |
@@ -17,17 +17,6 @@ scale:
   content_width: 39
   column_width: 0.6
 ---
-A quick introduction to basic and important concepts of JavaScript
+An introduction to the amazing world of painless JavaScript testing
 
 Use the arrow keys (**&larr;, &rarr;**) to navigate through the page.
-
-You should use Google Chrome and make yourself
-familiar with the [developer tools][], especially with the console.
-You will need it for the exercises.
-
----
-
-## Contribute
-
-Found a problem with style or content? Or do you have suggestions for improving
-the content?  Please [file an issue on GitHub][jsbasics-issues].
