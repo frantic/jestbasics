@@ -17,6 +17,6 @@ scale:
   content_width: 39
   column_width: 0.6
 ---
-An introduction to the amazing world of painless JavaScript testing
+An introduction to the amazing world of painless JavaScript testing.
 
 Use the arrow keys (**&larr;, &rarr;**) to navigate through the page.
