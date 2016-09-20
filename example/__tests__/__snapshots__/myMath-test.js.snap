@@ -1,0 +1,5 @@
+exports[`my math module records snapshots 1`] = `
+Object {
+  "foo": 1
+}
+`;

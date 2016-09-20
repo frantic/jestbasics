@@ -21,5 +21,13 @@ describe('my math module', () => {
       expect(number).toEqual(42);
       expect(fetch).toBeCalled();
     });
-  })
+  });
+
+  it('waits 0.5 seconds', (done) => {
+    setTimeout(done, 500);
+  });
+
+  it('records snapshots', () => {
+    expect({foo: 1}).toMatchSnapshot();
+  });
 });
