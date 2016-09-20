@@ -1,26 +1,13 @@
-# jsbasics
+# jestbasics
 
-An interactive introduction to basic and important concepts of JavaScript.  
-Topics currently covered:
+Introduction to Jest testing.
 
-- variables
-- data types
-- expressions and statements
-- scope
-- `this`
-- constructors and prototypes
-
-The presentation is being updated to include references to ES2015+ features.
-
----
-
-In order to run/build the presentation yourself, clone the repository, install 
-the required dependencies via
-
+To run the example project:
 ```
+brew install nodejs # unless you already have NodeJS 6+
+
+git clone git@github.com:frantic/jestbasics.git
+cd jestbasics/example
 npm install
-npm install -g exerslide-cli
+npm test
 ```
-
-and then build the presentation with `exerslide serve` (live development 
-server) or `exerslide build`.
