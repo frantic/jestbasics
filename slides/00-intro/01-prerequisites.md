@@ -18,4 +18,8 @@ on backend (NodeJS).
 
     ```
     brew install nodejs
+    git clone git@github.com:frantic/jestbasics.git
+    cd jestbasics/example
+    npm install
+    npm test
     ```
