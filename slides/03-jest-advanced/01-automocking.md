@@ -11,8 +11,10 @@ This means that if your module depends on another module, its implementation wil
 ```javascript
 // myMath.js
 const fetch = require('fetch');
+const Log = require('./logger');
 
 function randomNumber() {
+  Log.logToFile('About to get a random number');
   return fetch('https://random.org/number')
     .then((response) => response.text());
     .then((body) => Number(body));
@@ -20,7 +22,8 @@ function randomNumber() {
 ```
 
 By default Jest will try to guess the shape of the mocked module and replace the exported functions
-by mocks.
+by mocks. In the case with `logger` module it works great -- our `randomNumber` doesn't depend on
+the return value of its function and uses it for side-effects.
 
 However, in some cases you might want to create a custom mock for a module. In order to do that,
 create a new file in special `__mocks__` folder:
