@@ -20,6 +20,7 @@ version control system.
 When you run the tests for the next time, Jest will make sure the snapshots match. In case they
 don't you'll get an error. You can re-record snapshots using `jest -u` command.
 
-## Use classes
+## Use cases
 
-Snapshot testing was introduced to address React/React Native testing.
+Snapshot testing was introduced to address React/React Native testing, but can be applied to many
+other record/replay scenarios.
