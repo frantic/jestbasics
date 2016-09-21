@@ -17,7 +17,7 @@ on backend (NodeJS).
 2. Have nodejs installed on your computer:
 
     ```
-    brew install nodejs
+    brew install node
     git clone git@github.com:frantic/jestbasics.git
     cd jestbasics/example
     npm install

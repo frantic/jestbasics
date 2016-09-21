@@ -1,7 +1,7 @@
 ---
 title: Assertions
 ---
-Jest uses Jasmin-style assertion functions:
+Jest uses Jasmine-style assertion functions:
 
 ```javascript
 expect(value).toBe(something);

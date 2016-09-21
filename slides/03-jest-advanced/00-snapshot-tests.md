@@ -14,8 +14,8 @@ Snapshot Summary
  › 1 snapshot written in 1 test file
 ```
 
-New file will be created in `__tests__/__snapshots__`. It's a good idea to check it into your source
-version control system.
+New file will be created in `__tests__/__snapshots__`. Snapshot files are expected to be checked
+into source control and reviewers must take time to review snapshot files.
 
 When you run the tests for the next time, Jest will make sure the snapshots match. In case they
 don't you'll get an error. You can re-record snapshots using `jest -u` command.
